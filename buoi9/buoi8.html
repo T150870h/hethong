@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Student</title>
+    <!-- <script src="buoi8.js"></script> -->
+    <link rel="stylesheet" href="buoi8.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <h1>Quản lý sinh viên</h1>
+            <label for="name">Nhập tên</label>
+            <input type="text" id="name">
+            <label for="address">Nhập địa chỉ</label>
+            <input type="text" id="address">
+            <label for="dob">Nhập ngày tháng năm sinh</label>
+            <input type="date" id="dob">
+            <label for="score">Nhập điểm</label>
+            <input type="number" id="score">
+            <button id="submit" type="submit">Nộp</button>
+
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Tên</th>
+                    <th>Địa chỉ</th>
+                    <th>Ngày sinh</th>
+                    <th>Điểm</th>
+
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody id="tableData">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="buoi8.js"></script>
+</body>
+
+</html>
